@@ -75,9 +75,3 @@ The MNIST dataset is downloaded automatically on the first run via Keras.
 - The trained model is saved as `mnist_model.keras` after each run — it is excluded from the repo via `.gitignore` since it can be reproduced by running `main.py`
 - Early stopping monitors `val_loss` with a patience of 3 — training typically stops well before 20 epochs
 - The MNIST dataset is automatically downloaded and cached by Keras on first run (~11MB)
-
----
-
-## 📄 License
-
-MIT License
